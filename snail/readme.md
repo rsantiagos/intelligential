@@ -6,7 +6,7 @@
     </a>
 </div>
 
-# Pasos para probar la funcion
+# Pasos para probar la función
 
 1.- Después de clonar o descargar el proyecto, desde la terminal posicionarse en esta ruta y ejecutar el siguiente comando 
 ```
