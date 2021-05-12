@@ -1,0 +1,11 @@
+## Requerimientos modelado de una tienda en linea.
+
+<div align="center">
+       <img width="90%" src="./ecommerce.png" alt=''>
+</div>
+
+# Diagrama de componentes
+Los componentes para que se pueda hacer la tienda linea son los siguientes:
+<div align="center">
+       <img width="90%" src="./componentDiagram.png" alt=''>
+</div>
