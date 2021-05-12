@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI xmi.version="1.2" timestamp="2021-05-12T17:46:56" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+<XMI xmi.version="1.2" timestamp="2021-05-12T18:02:14" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller 2.32.0 http://umbrello.kde.org</XMI.exporter>
@@ -159,15 +159,18 @@
       <UML:Dependency isSpecification="false" xmi.id="uaeR6M1G9UwFl" name="APIRest" namespace="Component_View" visibility="public" client="uUmqYDqFyeWXu" supplier="uyuhqkwvOrzCV"/>
       <UML:Dependency isSpecification="false" xmi.id="uIJyc4cyLhO3A" name="Antifraude (POST)" namespace="Component_View" visibility="public" client="uUmqYDqFyeWXu" supplier="uWcfsTe613Pkr"/>
       <UML:Dependency isSpecification="false" xmi.id="uT72lhIbUw0QP" name="APIRest o GraphQL pagos" namespace="Component_View" visibility="public" client="uyuhqkwvOrzCV" supplier="uWcfsTe613Pkr"/>
+      <UML:Component isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uJF8nyHfRTFPL" name="Sistema paqueteria (tercero)" namespace="Component_View" visibility="public" executable="0"/>
+      <UML:Dependency isSpecification="false" xmi.id="u848CwSGzegd7" name="ApiRest o GraphQL" namespace="Component_View" visibility="public" client="uyuhqkwvOrzCV" supplier="uJF8nyHfRTFPL"/>
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams resolution="96">
-       <diagram xmi.id="ua67doWjA6BfQ" name="ecommerce" type="7" documentation="" backgroundcolor="#ffffff" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#ff0000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="305" canvaswidth="483" isopen="1">
+       <diagram xmi.id="ua67doWjA6BfQ" name="ecommerce" type="7" documentation="" backgroundcolor="#ffffff" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#ff0000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="305" canvaswidth="818.5" isopen="1">
         <widgets>
+         <componentwidget xmi.id="uyuhqkwvOrzCV" localid="u0YtQgxCgJGp5" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-191" y="-84" width="117" height="58" isinstance="0" showstereotype="2"/>
+         <componentwidget xmi.id="uUmqYDqFyeWXu" localid="ubRFzR6hFbdQ5" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#55aa7f" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-461" y="-104" width="121" height="58" isinstance="0" showstereotype="2"/>
          <componentwidget xmi.id="uWcfsTe613Pkr" localid="u8lU7bhWbNWxt" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#0000ff" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-363" y="56" width="240" height="58" isinstance="0" showstereotype="2"/>
          <componentwidget xmi.id="uE2muwpRqud7b" localid="up5ej1Q35Gsgq" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-203" y="-191" width="155" height="58" isinstance="0" showstereotype="2"/>
-         <componentwidget xmi.id="uUmqYDqFyeWXu" localid="ubRFzR6hFbdQ5" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#55aa7f" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-461" y="-104" width="121" height="58" isinstance="0" showstereotype="2"/>
-         <componentwidget xmi.id="uyuhqkwvOrzCV" localid="u0YtQgxCgJGp5" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-191" y="-84" width="117" height="58" isinstance="0" showstereotype="2"/>
+         <componentwidget xmi.id="uJF8nyHfRTFPL" localid="u7Orub9RvynpR" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ff557f" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="99" y="-72" width="257" height="58" isinstance="0" showstereotype="2"/>
         </widgets>
         <messages/>
         <associations>
@@ -186,7 +189,7 @@
           </linepath>
          </assocwidget>
          <assocwidget xmi.id="uT72lhIbUw0QP" localid="uEgjMAJu6ADOh" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" xmi.id="uT72lhIbUw0QP" type="502" widgetaid="uyuhqkwvOrzCV" widgetbid="uWcfsTe613Pkr" indexa="1" totalcounta="2" indexb="1" totalcountb="2">
-          <floatingtext xmi.id="uDYDWFtOlVlk7" localid="uc2TTcBEQJQJg" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-140.5" y="2.5" width="161" height="18" isinstance="0" showstereotype="2" text="APIRest o GraphQL pagos" pretext="" posttext="" role="703"/>
+          <floatingtext xmi.id="uDYDWFtOlVlk7" localid="uc2TTcBEQJQJg" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-147.5" y="22.5" width="161" height="18" isinstance="0" showstereotype="2" text="APIRest o GraphQL pagos" pretext="" posttext="" role="703"/>
           <linepath layout="Direct">
            <startpoint startx="-149" starty="-26"/>
            <endpoint endx="-149" endy="56"/>
@@ -197,6 +200,13 @@
           <linepath layout="Direct">
            <startpoint startx="-340" starty="-57"/>
            <endpoint endx="-191" endy="-57"/>
+          </linepath>
+         </assocwidget>
+         <assocwidget xmi.id="u848CwSGzegd7" localid="uxg3WOLLWxnKV" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" seqnum="" xmi.id="u848CwSGzegd7" type="502" widgetaid="uyuhqkwvOrzCV" widgetbid="uJF8nyHfRTFPL" indexa="1" totalcounta="2" indexb="1" totalcountb="2">
+          <floatingtext xmi.id="uBgnMPjKec3XV" localid="ugdhi4mbP4jZf" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-62.5" y="-60" width="121" height="18" isinstance="0" showstereotype="2" text="ApiRest o GraphQL" pretext="" posttext="" role="703"/>
+          <linepath layout="Direct">
+           <startpoint startx="-74" starty="-40"/>
+           <endpoint endx="99" endy="-40"/>
           </linepath>
          </assocwidget>
         </associations>
@@ -223,7 +233,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="uaG1TrwB5mDUt" documentation="" uniqueid="uQmwQOhIkLvpm"/>
+  <docsettings viewid="ua67doWjA6BfQ" documentation="" uniqueid="ugdhi4mbP4jZf"/>
   <listview>
    <listitem id="Views" type="800" open="1">
     <listitem id="Entity_Relationship_Model" type="836" open="1"/>
@@ -234,6 +244,7 @@
      <listitem id="ua67doWjA6BfQ" type="819" label="ecommerce" open="0"/>
      <listitem id="uUmqYDqFyeWXu" type="822" open="1"/>
      <listitem id="uWcfsTe613Pkr" type="822" open="1"/>
+     <listitem id="uJF8nyHfRTFPL" type="822" open="1"/>
     </listitem>
     <listitem id="Deployment_View" type="827" open="1">
      <listitem id="u0E4tflnGhBJB" type="825" label="diagrama de despliegue" open="0"/>
