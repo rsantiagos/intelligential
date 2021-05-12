@@ -21,3 +21,9 @@ Diagrama de sequencia para realizar el historial de un pedido y el perfil de un 
 <div align="center">
        <img width="90%" src="./sequenceQueryOrders.png" alt=''>
 </div>
+
+
+Diagrama de sequencia para el rastreo de un pedido a travez de la paqueteria
+<div align="center">
+       <img width="90%" src="./rastreo.png" alt=''>
+</div>
