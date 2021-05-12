@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XMI xmi.version="1.2" timestamp="2021-05-12T16:22:11" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+<XMI xmi.version="1.2" timestamp="2021-05-12T17:01:29" verified="false" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
  <XMI.header>
   <XMI.documentation>
    <XMI.exporter>umbrello uml modeller 2.32.0 http://umbrello.kde.org</XMI.exporter>
@@ -36,20 +36,77 @@
         <UML:DataType isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uzuAbfREB2g6w" name="wchar_t" namespace="Datatypes" visibility="public"/>
        </UML:Namespace.ownedElement>
       </UML:Package>
-      <UML:Class isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uT3zzYKPi9v1T" name="Cliente" namespace="Logical_View" visibility="public"/>
+      <UML:Class isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uT3zzYKPi9v1T" name="Cliente" namespace="Logical_View" visibility="public">
+       <UML:Classifier.feature>
+        <UML:Operation isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uT20JPTlNv24P" name="hace el pedido" visibility="public" isQuery="false" isOverride="false" isVirtual="false" isInline="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter xmi.id="uOPHiz9YNRPaj" type="uT3zzYKPi9v1T" kind="return"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uhaZC5oIrhPQZ" name="Notificacion pedido confirmado" visibility="public" isQuery="false" isOverride="false" isVirtual="false" isInline="false"/>
+        <UML:Operation isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uVq7BgtnyfEGo" name="Notificacion del pedido " visibility="public" isQuery="false" isOverride="false" isVirtual="false" isInline="false"/>
+        <UML:Operation isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="ugSZSMfrEfSRY" name="Notificacion error en el pedido" visibility="public" isQuery="false" isOverride="false" isVirtual="false" isInline="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uWHB8DzuqsH7o" name="Servicio Web" namespace="Logical_View" visibility="public">
+       <UML:Classifier.feature>
+        <UML:Operation isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uaDNllLqwbuEa" name="Verificacion de pago" visibility="public" isQuery="false" isOverride="false" isVirtual="false" isInline="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter xmi.id="uZ0YTJClfPImr" type="uWHB8DzuqsH7o" kind="return"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uLPGya7Y4Zybp" name="Hace el pago" visibility="public" isQuery="false" isOverride="false" isVirtual="false" isInline="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter xmi.id="uGjxo4KpSMoSR" type="uT3zzYKPi9v1T" kind="return"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uKlN7t4oK2nUC" name="Notificacion pago" visibility="public" isQuery="false" isOverride="false" isVirtual="false" isInline="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uNV9DsWXsWT4A" name="sistema de pago" namespace="Logical_View" visibility="public">
+       <UML:Classifier.feature>
+        <UML:Operation isSpecification="false" isLeaf="false" isRoot="false" isAbstract="false" xmi.id="uv0CSQNdefvYe" name="Notificacion pago" visibility="public" isQuery="false" isOverride="false" isVirtual="false" isInline="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
      </UML:Namespace.ownedElement>
      <XMI.extension xmi.extender="umbrello">
       <diagrams resolution="96">
-       <diagram xmi.id="uMKvraZ96mlfn" name="diagrama de clases" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#ff0000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="0" canvaswidth="0" isopen="1">
+       <diagram xmi.id="uMKvraZ96mlfn" name="diagrama de clases" type="1" documentation="" backgroundcolor="#ffffff" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#ff0000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="0" canvaswidth="0" isopen="0">
         <widgets/>
         <messages/>
         <associations/>
        </diagram>
-       <diagram xmi.id="uIIScK3jFLShH" name="diagrama de secuencia" type="3" documentation="" backgroundcolor="#ffffff" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#ff0000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="100" canvasheight="274" canvaswidth="64" isopen="1" autoincrementsequence="0">
+       <diagram xmi.id="uIIScK3jFLShH" name="diagrama de secuencia hacer pedido" type="3" documentation="" backgroundcolor="#ffffff" fillcolor="#ffff00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" griddotcolor="#d3d3d3" linecolor="#ff0000" linewidth="0" textcolor="#000000" usefillcolor="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showstereotype="2" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="106.95" canvasheight="371" canvaswidth="18411" isopen="1" autoincrementsequence="0">
         <widgets>
-         <objectwidget xmi.id="uT3zzYKPi9v1T" localid="uSDO0QIHy8iLF" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-15345" y="80" width="64" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+         <preconditionwidget xmi.id="ugj9Dpl7HACJY" localid="uMD8pWfze4dDH" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#ff5500" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="0" x="-5659" y="342" width="131" height="25.87" isinstance="0" showstereotype="2" widgetaid="u7ZTxJ6jzS6gQ" preconditionname="pago rechazado" documentation=""/>
+         <objectwidget xmi.id="uWHB8DzuqsH7o" localid="u7ZTxJ6jzS6gQ" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5643.81" y="80" width="99" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+         <objectwidget xmi.id="uT3zzYKPi9v1T" localid="uBkh7ofJqqlC7" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5863.44" y="80" width="64" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+         <objectwidget xmi.id="uWHB8DzuqsH7o" localid="uO77dXjoq5NTb" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-18184" y="80" width="99" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+         <objectwidget xmi.id="uNV9DsWXsWT4A" localid="uYS19RwMssDQ4" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5414.68" y="80" width="122" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+         <objectwidget xmi.id="uT3zzYKPi9v1T" localid="uSDO0QIHy8iLF" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-18403" y="80" width="64" height="24" isinstance="0" showstereotype="2" drawasactor="0" multipleinstance="0" decon="0"/>
+         <preconditionwidget xmi.id="uFqox4xdxL3oF" localid="u9hrYfEhyCRSY" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="0" usesdiagramusefillcolor="0" fillcolor="#00aa00" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5656" y="263" width="125" height="24" isinstance="0" showstereotype="2" widgetaid="u7ZTxJ6jzS6gQ" preconditionname="pago aceptado" documentation=""/>
         </widgets>
-        <messages/>
+        <messages>
+         <messagewidget xmi.id="u1coxyMIYnUF9" localid="um8qXCcey7NjM" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5593" y="203.065" width="239" height="8" isinstance="0" showstereotype="2" seqnum="3" widgetaid="u7ZTxJ6jzS6gQ" widgetbid="uYS19RwMssDQ4" operation="u1coxyMIYnUF9" sequencemessagetype="1001" textid="ujC0swXOFM0qD">
+          <floatingtext xmi.id="ujC0swXOFM0qD" localid="u6HkHXToMpF8q" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5588" y="185" width="244" height="18" isinstance="0" showstereotype="2" text="Verificacion de pago() : Servicio Web" pretext="" posttext="" role="704"/>
+         </messagewidget>
+         <messagewidget xmi.id="ukJvDO5V0gaim" localid="u84f1beTRsWIw" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5831" y="148.95" width="245" height="20" isinstance="0" showstereotype="2" seqnum="" widgetaid="uBkh7ofJqqlC7" widgetbid="u7ZTxJ6jzS6gQ" operation="ukJvDO5V0gaim" sequencemessagetype="1000" textid="u0g61GyxSicXM">
+          <floatingtext xmi.id="u0g61GyxSicXM" localid="un1nm4xtsbVdc" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5778" y="130" width="159" height="18" isinstance="0" showstereotype="2" text="hace el pedido() : Cliente" pretext="" posttext="" role="704"/>
+         </messagewidget>
+         <messagewidget xmi.id="uK4yIdJStIs4v" localid="ucSjO7FpVvdGc" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-18371" y="122" width="245" height="20" isinstance="0" showstereotype="2" seqnum="" widgetaid="uSDO0QIHy8iLF" widgetbid="uO77dXjoq5NTb" operation="" sequencemessagetype="1000"/>
+         <messagewidget xmi.id="uLPGya7Y4Zybp" localid="uTM6M9mlAuCg5" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5831" y="192.43" width="245" height="20" isinstance="0" showstereotype="2" seqnum="2" widgetaid="uBkh7ofJqqlC7" widgetbid="u7ZTxJ6jzS6gQ" operation="uLPGya7Y4Zybp" sequencemessagetype="1000" textid="uyvgkEGupgp5q">
+          <floatingtext xmi.id="uyvgkEGupgp5q" localid="uesK9LSqBCrvi" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5800" y="174" width="165" height="18" isinstance="0" showstereotype="2" text="Hace el pago() : Cliente" pretext="" posttext="" role="704"/>
+         </messagewidget>
+         <messagewidget xmi.id="uKlN7t4oK2nUC" localid="uAFpS94vUnBwq" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5593" y="243.928" width="239" height="19" isinstance="0" showstereotype="2" seqnum="4" widgetaid="uYS19RwMssDQ4" widgetbid="u7ZTxJ6jzS6gQ" operation="uKlN7t4oK2nUC" sequencemessagetype="1001" textid="up0aQWUaxZKUa">
+          <floatingtext xmi.id="up0aQWUaxZKUa" localid="uURZyUC2eNxjl" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5588" y="225" width="137" height="18" isinstance="0" showstereotype="2" text="Notificacion pago()" pretext="" posttext="" role="704"/>
+         </messagewidget>
+         <messagewidget xmi.id="ugSZSMfrEfSRY" localid="uwCPZRfwCUiiN" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5830" y="343.206" width="235" height="19" isinstance="0" showstereotype="2" seqnum="" widgetaid="u7ZTxJ6jzS6gQ" widgetbid="uBkh7ofJqqlC7" operation="ugSZSMfrEfSRY" sequencemessagetype="1001" textid="ujADyGFaSpvtT">
+          <floatingtext xmi.id="ujADyGFaSpvtT" localid="uJYyWjokYtrhF" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5798" y="325" width="199" height="18" isinstance="0" showstereotype="2" text="Notificacion error en el pedido()" pretext="" posttext="" role="704"/>
+         </messagewidget>
+         <messagewidget xmi.id="uVq7BgtnyfEGo" localid="uQW9NO21Gm6Xr" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5830" y="268.226" width="235" height="19" isinstance="0" showstereotype="2" seqnum="" widgetaid="u7ZTxJ6jzS6gQ" widgetbid="uBkh7ofJqqlC7" operation="uVq7BgtnyfEGo" sequencemessagetype="1001" textid="u55AqBR5IlXTP">
+          <floatingtext xmi.id="u55AqBR5IlXTP" localid="uXSxBr8mCl8WC" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,5,50,0,0,0,0,0" autoresize="1" x="-5825" y="250" width="159" height="18" isinstance="0" showstereotype="2" text="Notificacion del pedido ()" pretext="" posttext="" role="704"/>
+         </messagewidget>
+        </messages>
         <associations/>
        </diagram>
       </diagrams>
@@ -132,7 +189,7 @@
   </UML:Model>
  </XMI.content>
  <XMI.extensions xmi.extender="umbrello">
-  <docsettings viewid="uIIScK3jFLShH" documentation="" uniqueid="uSDO0QIHy8iLF"/>
+  <docsettings viewid="uIIScK3jFLShH" documentation="" uniqueid="ugSZSMfrEfSRY"/>
   <listview>
    <listitem id="Views" type="800" open="1">
     <listitem id="Entity_Relationship_Model" type="836" open="1"/>
@@ -148,10 +205,23 @@
      <listitem id="u0E4tflnGhBJB" type="825" label="diagrama de despliegue" open="0"/>
     </listitem>
     <listitem id="Logical_View" type="801" open="1">
-     <listitem id="uT3zzYKPi9v1T" type="813" open="1"/>
+     <listitem id="uT3zzYKPi9v1T" type="813" open="1">
+      <listitem id="uT20JPTlNv24P" type="815" open="1"/>
+      <listitem id="uVq7BgtnyfEGo" type="815" open="0"/>
+      <listitem id="ugSZSMfrEfSRY" type="815" open="0"/>
+      <listitem id="uhaZC5oIrhPQZ" type="815" open="0"/>
+     </listitem>
      <listitem id="uMKvraZ96mlfn" type="807" label="diagrama de clases" open="0"/>
-     <listitem id="uIIScK3jFLShH" type="810" label="diagrama de secuencia" open="0"/>
-     <listitem id="Datatypes" type="830" open="0">
+     <listitem id="uIIScK3jFLShH" type="810" label="diagrama de secuencia hacer pedido" open="0"/>
+     <listitem id="uWHB8DzuqsH7o" type="813" open="1">
+      <listitem id="uLPGya7Y4Zybp" type="815" open="1"/>
+      <listitem id="uKlN7t4oK2nUC" type="815" open="0"/>
+      <listitem id="uaDNllLqwbuEa" type="815" open="1"/>
+     </listitem>
+     <listitem id="uNV9DsWXsWT4A" type="813" open="1">
+      <listitem id="uv0CSQNdefvYe" type="815" open="1"/>
+     </listitem>
+     <listitem id="Datatypes" type="830" open="1">
       <listitem id="uBHJs0hU0BJUS" type="829" open="0"/>
       <listitem id="uSjcqB3kbTWKm" type="829" open="0"/>
       <listitem id="uJSh4dfiKnnhw" type="829" open="0"/>
