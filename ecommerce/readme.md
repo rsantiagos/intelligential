@@ -19,5 +19,5 @@ Diagrama de sequencia para realizar un pedido
 
 Diagrama de sequencia para realizar el historial de un pedido y el perfil de un cliente
 <div align="center">
-       <img width="90%" src="./SequenceQueryOrders.png" alt=''>
+       <img width="90%" src="./sequenceQueryOrders.png" alt=''>
 </div>
